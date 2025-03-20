@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.subbanner {
+    height: 80px;
+}
+
 .banner-standard {
     background-color: #4f4c4c;
 }
@@ -20,6 +24,13 @@
     margin: 0;
     color: white;
     font-size: 40px;
+    text-align: left;
+}
+
+.banner h2 {
+    margin: 0;
+    color: white;
+    font-size: 30px;
     text-align: left;
 }
 

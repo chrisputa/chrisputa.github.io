@@ -27,9 +27,7 @@ main {
 
 /* Page wrapper */
 .page-wrapper {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 25px;
+    padding: 25px 100px;
     display: flex;
     gap: 50px;
 }
