@@ -1,0 +1,47 @@
+/* Load other CSS files */
+@import url("/css/nav.css");
+@import url("/css/banner.css");
+@import url("/css/box.css");
+@import url("/css/text.css");
+
+/* CSS for the website */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+}
+
+main {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Page wrapper */
+.page-wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    display: flex;
+    gap: 50px;
+}
+
+.page-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Page content (image) */
+.page-column img {
+    max-width: 100%;
+    height: auto;
+}

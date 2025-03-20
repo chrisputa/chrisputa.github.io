@@ -1,0 +1,21 @@
+body {
+    font-family: 'Quicksand', serif;
+}
+
+/* normal text that makes up the main body */
+.normal-text {
+    line-height: 130%;
+    font-size: 18px;
+}
+
+/* Box text */
+.box-text {
+    text-align: justify;
+}
+
+.box-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
