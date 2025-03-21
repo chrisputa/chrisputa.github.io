@@ -2,6 +2,10 @@ body {
     font-family: 'Quicksand', serif;
 }
 
+button {
+    font-family: 'Quicksand', serif;
+}
+
 /* normal text that makes up the main body */
 .normal-text {
     line-height: 130%;

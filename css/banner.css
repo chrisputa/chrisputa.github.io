@@ -20,6 +20,10 @@
     background-color: #13436c; /* Logo colors: #0056a2 and #00aeeb */
 }
 
+.banner-patients {
+    background-color: #7ca32e; /* WATCH color: #91c640 */
+}
+
 .banner h1 {
     margin: 0;
     color: white;

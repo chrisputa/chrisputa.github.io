@@ -3,6 +3,7 @@
 @import url("/css/banner.css");
 @import url("/css/box.css");
 @import url("/css/text.css");
+@import url("/css/video.css");
 
 /* CSS for the website */
 * {
@@ -28,6 +29,10 @@ main {
 /* Page wrapper */
 .page-wrapper {
     padding: 25px 100px;
+}
+
+/* Page columns */
+.page-column-wrapper {
     display: flex;
     gap: 50px;
 }
@@ -38,8 +43,19 @@ main {
     flex-direction: column;
 }
 
+/* Page rows */
+.page-row {
+    width: 100%;
+}
+
 /* Page content (image) */
 .page-column img {
     max-width: 100%;
     height: auto;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
