@@ -1,7 +1,8 @@
 /* Load other CSS files */
-@import url("/css/nav.css");
 @import url("/css/banner.css");
 @import url("/css/box.css");
+@import url("/css/nav.css");
+@import url("/css/page.css");
 @import url("/css/text.css");
 @import url("/css/video.css");
 
@@ -18,42 +19,16 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #fbfbfb;
 }
 
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     overflow-y: auto;
 }
 
-/* Page wrapper */
-.page-wrapper {
-    padding: 25px 100px;
-}
-
-/* Page columns */
-.page-column-wrapper {
-    display: flex;
-    gap: 50px;
-}
-
-.page-column {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Page rows */
-.page-row {
-    width: 100%;
-}
-
-/* Page content (image) */
-.page-column img {
-    max-width: 100%;
-    height: auto;
-}
-
+/* Centered content */
 .centered-content {
     display: flex;
     justify-content: center;

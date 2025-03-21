@@ -10,7 +10,7 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0px 100px;
+    padding: 0px 50px;
 }
 
 /* Navbar website name */
@@ -38,7 +38,6 @@ nav ul li.nav-button .nav-link {
     color: white;
     text-align: center;
     font-size: 14px;
-    font-weight: bold;
     position: relative;
 }
 

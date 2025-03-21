@@ -7,41 +7,50 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
     <script src="/js/nav.js"></script>
     <script src="/js/video.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
-<div id="nav-placeholder"></div>
+    <div id="nav-placeholder"></div>
 
 <main>
-    <div class="banner banner-patients">
-        <h1>Für Betroffene</h1>
+    <div class="banner-wrapper banner-wrapper-patients">
+        <div class="banner-inner banner-inner-patients">
+            <h1>Für Betroffene</h1>
+        </div>
     </div>
 
     <div class="page-wrapper">
-        <div class="page-row centered-content">
-            <div class="videolist-buttons">
-                <button class="videolist-button" data-videolist="Atemregulation">Atemregulation</button>
-                <button class="videolist-button" data-videolist="YOGA-Sequenzen">YOGA-Sequenzen</button>
+        <div class="page-inner">
+            <div class="page-row centered-content">
+                <div class="videolist-buttons">
+                    <button class="videolist-button" data-videolist="Atemregulation">Atemregulation</button>
+                    <button class="videolist-button" data-videolist="YOGA-Sequenzen">YOGA-Sequenzen</button>
+                </div>
             </div>
-        </div>
-        <div class="page-row centered-content">
-            <div class="video-previews" id="video-previews">
-                <!-- Video previews will be inserted here -->
+            <div class="page-row centered-content">
+                <div class="video-previews" id="video-previews">
+                    <!-- Video previews will be inserted here -->
+                </div>
             </div>
-        </div>
-        <div class="page-row">
-            <div class="video-player" id="video-player">
-                <!-- The embedded video will be inserted here -->
+            <div class="page-row">
+                <div class="video-player" id="video-player">
+                    <!-- The embedded video will be inserted here -->
+                </div>
             </div>
         </div>
     </div> 
 
-    <div class="banner subbanner banner-patients">
-        <h2>Research</h2>
+    <div class="banner-wrapper subbanner banner-wrapper-patients">
+        <div class="banner-inner subbanner banner-inner-patients">
+            <h2>Research</h2>
+        </div>
     </div>
 
-    <div class="page-wrapper"> 
-        Hier stehen Infos und Links zur zugehörigen Forschung.
+    <div class="page-wrapper">
+        <div class="page-inner">
+            Hier stehen Infos und Links zur zugehörigen Forschung.
+        </div>
     </div>
 </main>
 

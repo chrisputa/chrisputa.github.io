@@ -10,7 +10,6 @@
     background-color: #7ca32e;
     color: white;
     font-size: 16px;
-    font-weight: bold;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -49,7 +48,6 @@
 .video-title {
     margin-top: 5px;
     font-size: 14px;
-    font-weight: bold;
     text-align: center;
 }
 

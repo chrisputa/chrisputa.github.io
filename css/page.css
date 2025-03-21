@@ -1,0 +1,38 @@
+/* Page wrapper */
+.page-wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.page-inner {
+    padding: 25px 30px;
+    background-color: #fbfbfb;
+    flex: 1;
+}
+
+/* Page columns */
+.page-column-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.page-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Page rows */
+.page-row {
+    width: 100%;
+}
+
+/* Page content (image) */
+.page-column img {
+    max-width: 100%;
+    height: auto;
+}
