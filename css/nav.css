@@ -1,10 +1,11 @@
 /* Navbar */
 nav {
-    background-color: #333;
+    background-color: #ffffff;
     overflow: hidden;
     width: 100%;
     margin: 0;
     padding: 0;
+    border-bottom: 1px solid #333333;
 }
 
 nav ul {
@@ -21,7 +22,7 @@ nav ul li.website-name {
 nav ul li.website-name a {
     display: block;
     padding: 20px 0px;
-    color: white;
+    color: #000000;
     text-align: center;
     font-size: 20px;
 }
@@ -35,14 +36,14 @@ nav ul li.nav-button .nav-link {
     display: block;
     padding: 23px 24px;
     text-decoration: none;
-    color: white;
+    color: #000000;
     text-align: center;
     font-size: 14px;
     position: relative;
 }
 
 nav ul li.nav-button .nav-link:hover {
-    background-color: #111;
+    background-color: #f5f5f5;
 }
 
 /* Active top level nav link (pseudo-element) */
@@ -50,10 +51,10 @@ nav ul li.nav-button .nav-link.nav-first.active::after{
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
-    height: 3px;
-    background-color: white;
+    height: 4px;
+    background-color: #333333;
 }
 
 /* Active second level nav link */
@@ -65,7 +66,7 @@ nav ul li.nav-button .nav-link.nav-second.active {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #ffffff;
     z-index: 1000;
 }
 
