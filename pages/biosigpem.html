@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio-Sig PEM</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
@@ -20,16 +21,13 @@
     </div>
 
     <div class="page-wrapper"> 
-        <div class="page-inner"> 
-            <div class="page-column-wrapper"> 
-                <div class="page-column">
-                    <div id="biosigpem-overview-text">
-                        <script>loadHTML("/content/biosigpem/overview_text.html", "biosigpem-overview-text");</script>
-                    </div>
-                </div>
-                <div class="page-column">
-                    <img src="/content/biosigpem/img/kreisschema.png" alt="Kreisschema">
-                </div>
+        <div class="page-inner">
+            <div class="page-block" id="biosigpem-overview-text">
+                <script>loadHTML("/content/biosigpem/overview_text.html", "biosigpem-overview-text");</script>
+            </div>
+            <div class="page-gap"></div>
+            <div class="page-block">
+                <img src="/content/biosigpem/img/kreisschema.png" alt="Kreisschema">
             </div>
         </div>
     </div>
