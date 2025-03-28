@@ -1,7 +1,7 @@
 /* Page wrapper */
 .page-wrapper {
     padding: 10px 10px;
-    width: 100%;
+    width: 95%;
     background-color: #ffffff;
 }
 @media (min-width: 768px) {
