@@ -49,3 +49,8 @@ function setActiveClass() {
 document.addEventListener("DOMContentLoaded", function() {
     loadNavbar().then(setActiveClass);
 });
+
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-list');
+    navLinks.classList.toggle('show');
+}
