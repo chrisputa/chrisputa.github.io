@@ -36,11 +36,11 @@ main {
     align-items: center;
 }
 
-#impressum p {
+#contact p {
     text-align: center;
 }
 @media (min-width: 768px) {
-    #impressum p {
+    #contact p {
         text-align: left;
     }
 }
