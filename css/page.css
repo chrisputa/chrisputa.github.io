@@ -3,12 +3,32 @@
     padding: 10px 10px;
     width: 95%;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 @media (min-width: 768px) {
     .page-wrapper {
         padding: 25px 30px;
         min-width: 600px;
         width: 45%;
+    }
+}
+
+.page-wrapper.mobile-screen {
+    display: flex;
+}
+@media (min-width: 768px) {
+    .page-wrapper.mobile-screen {
+        display: none;
+    }
+}
+
+.page-wrapper.wide-screen {
+    display: none;
+}
+@media (min-width: 768px) {
+    .page-wrapper.wide-screen {
+        display: flex;
     }
 }
 
