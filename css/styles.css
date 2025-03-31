@@ -35,3 +35,12 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+#impressum p {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    #impressum p {
+        text-align: left;
+    }
+}
