@@ -7,16 +7,21 @@
 
 .videolist-button {
     padding: 10px 20px;
-    background-color: #7ca32e;
-    color: white;
+    background-color: #ffffff; /* old: background-color: #5e7a1d */
+    color: #000000; /* old: color: #ffffff; */
     font-size: 16px;
-    border: none;
+    border: 1px solid #000000; /* old: border: none; */
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .videolist-button:hover {
-    background-color: #5e7a1d;
+    background-color: #ededed; /* old: background-color: #5e7a1d */
+    border-color: #333333; 
+}
+
+.videolist-button:active {
+    transform: scale(0.98);
 }
 
 /* Video previews */
@@ -62,12 +67,12 @@
 }
 
 .video-previews::-webkit-scrollbar-thumb {
-    background: #7ca32e;
+    background: #cdcdcd; /* old: background-color: #7ca32e */
     border-radius: 8px;
 }
 
 .video-previews::-webkit-scrollbar-thumb:hover {
-    background: #5e7a1d;
+    background: #7e7e7e; /* old: background-color: #5e7a1d */
 }
 
 /* Video player */
