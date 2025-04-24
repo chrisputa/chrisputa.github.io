@@ -12,6 +12,12 @@ button {
     font-size: 18px;
 }
 
+.caption-text {
+    line-height: 130%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 /* Box text */
 .box-text {
     text-align: justify;

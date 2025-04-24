@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <script src="/js/nav.js"></script>
     <script src="/js/html_loader.js"></script>
+    <script src="/js/exp-box.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,27 @@
         </div>
     </div>
 
-    
+    <div class="page-wrapper">
+        <div class="page-block" id="biosigpem-overview-text">
+            <div class="exp-box">
+                <div class="exp-box-content">
+                    <p>
+                        <div id="publications-smartwatch-data-header">
+                            <script>loadHTML("/content/publications/smartwatch_data/header_text.html", "publications-smartwatch-data-header")</script>
+                        </div>
+                        <div class="hidden-content" id="publications-smartwatch-data-hidden">
+                            <script>loadHTML("/content/publications/smartwatch_data/hidden_text.html", "publications-smartwatch-data-hidden")</script>
+                        </div>
+                    </p>
+                </div>
+                <button class="read-more-btn">Read more...</button>
+            </div>
+        </div>
+        <div class="page-gap"></div>
+        <div class="page-block">
+            
+        </div>
+    </div>
 
     <div class="banner subbanner banner-white">
         <div class="banner-inner subbanner">
