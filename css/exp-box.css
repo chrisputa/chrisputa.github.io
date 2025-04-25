@@ -14,11 +14,11 @@
 .exp-box .read-more-btn {
     background-color: #ffffff;
     color: #000000;
-    border: 1px solid #000000;
+    border: 1px solid #ccc;
     border-radius: 4px;
     padding: 1px 3px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 15px;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -26,9 +26,48 @@
 
 .exp-box .read-more-btn:hover {
     background-color: #ededed;
-    border-color: #333333; 
 }
 
 .exp-box .read-more-btn:active {
     transform: scale(0.97);
+}
+
+.exp-box .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp-box .button-container a {
+    text-decoration: none;
+}
+
+.exp-box .viocenote-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1px 3px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.exp-box .viocenote-btn:hover {
+    background-color: #ededed;
+}
+
+.exp-box .viocenote-btn:active {
+    transform: scale(0.97);
+}
+
+.exp-box .voicenotes-icon {
+    margin-right: 5px;
+    width: 13px;
+    height: 13px;
 }
