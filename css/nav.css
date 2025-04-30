@@ -76,6 +76,12 @@ nav ul {
     }
 }
 
+.website-icon {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
 /* Navbar buttons */
 nav ul li.nav-button {
     float: right;
@@ -97,7 +103,7 @@ nav ul li.nav-button .nav-link:hover {
 }
 
 
-    /* Active top level nav link */
+/* Active top level nav link */
 nav ul li.nav-button .nav-link.nav-first.active {
     text-decoration: underline;
 }

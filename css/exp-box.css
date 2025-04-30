@@ -42,7 +42,7 @@
     text-decoration: none;
 }
 
-.exp-box .viocenote-btn {
+.exp-box .voicenote-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,15 +58,15 @@
     transition: background-color 0.3s ease;
 }
 
-.exp-box .viocenote-btn:hover {
+.exp-box .voicenote-btn:hover {
     background-color: #ededed;
 }
 
-.exp-box .viocenote-btn:active {
+.exp-box .voicenote-btn:active {
     transform: scale(0.97);
 }
 
-.exp-box .voicenotes-icon {
+.exp-box .voicenote-icon {
     margin-right: 5px;
     width: 13px;
     height: 13px;
